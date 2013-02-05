@@ -145,6 +145,12 @@
     #4\vspace{\parsep}%
   }\\}
 
+\newcommand{\entryy}[4]{%
+  \parbox[t]{6cm}{#1\\ {\addfontfeature{Color=lightgray} #2}}&\parbox[t]{11.8cm}{%
+    \textbf{#3}\\%
+    #4\vspace{\parsep}%
+  }\\}
+
 
 %%%%%%%%%%%%%%
 % Side block %

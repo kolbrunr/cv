@@ -11,8 +11,8 @@ open:
 build:
 	mkdir -p build
 
-build/$(SOURCE_FILE).pdf: build $(SOURCE_FILE).tex
+build/$(SOURCE_FILE).pdf: build $(SOURCE_FILE).tex friggeri-cv.cls
 	xelatex -output-directory=build $(SOURCE_FILE).tex
 
-pdf:
+pdf: friggeri-cv.cls
 	xelatex -output-directory=build $(SOURCE_FILE).tex
