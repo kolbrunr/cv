@@ -6,7 +6,7 @@ clean:
 	rm -rf build
 
 open:
-	open build/cv.pdf
+	open build/$(SOURCE_FILE).pdf
 
 build:
 	mkdir -p build
