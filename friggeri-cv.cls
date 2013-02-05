@@ -130,7 +130,7 @@
 % List environment %
 %%%%%%%%%%%%%%%%%%%%
 
-\setlength{\tabcolsep}{0pt}
+\setlength{\tabcolsep}{2pt}
 \newenvironment{entrylist}{%
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
 }{%
